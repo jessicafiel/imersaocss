@@ -1,22 +1,106 @@
-
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Jéssica G Fiel</title>
-	<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-	<header>
-  <nav class="menu">
-    <ul>
-      <li><a href="#">Sobre</a></li>
-      <li><a href="#">Portfólio</a></li>
-      <li><a href="#">Contatos</a></li>
-    </ul>
-  </nav>
-  <h1 class="site-title">Jéssica G Fiel</h1>
-  <h2 class="site-subtitle">jr. frontend developer</h2>
-</header>
-</body>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jéssica Fiel</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <script
+      src="https://kit.fontawesome.com/6d6952c5be.js"
+      crossorigin="anonymous"
+   ></script>
+  </head>
+  <body>
+    <header>
+      <nav class="menu">
+        <ul class="container">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#portfolio">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="titulo">
+        <h1 class="site-title">Jéssica Fiel</h1>
+        <h2 class="site-subtitle">jr. frontend developer</h2>
+      </div>
+    </header>
+    <section class="sobre container" id="sobre">
+      <h2>Sobre</h2>
+
+      <p>
+        Sempre tive muito interesse com tecnologia e, e foi a partir daí, muito estimulada pela vontade de aprender e também por pessoas de TI, que comecei a buscar maiores informações a respeito da área, atuação no mercado de trabalho, e assim começou minha história pela programação.
+      </p>
+      <p>
+        Sou formada em Análise e Desenvolvimento de Sistemas e desde então me apaixonei pelo desenvolvimento web.
+      </p>
+
+      <p>
+        Meu foco maior de estudos atualmente é a parte de desenvolvimento web, abordando especificamente HTML, CSS e Javascript.
+      </p>
+
+      <p>
+        Nas horas vagas, além de estudar sobre desenvolvimento web, gosto de assistir séries e filmes e de escrever. 
+      </p>
+
+      <p>
+        Este site foi construído durante a
+        <a href="https://www.alura.com.br/imersao-css">Imersão CSS da Alura</a>
+        😻
+      </p>
+    </section>
+    <section class="portfolio container" id="portfolio">
+      <h2>Projetos</h2>
+
+      <div class="grid">
+		  
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="./img/alura.png" alt="QuarentenaDev">
+            </figure>
+            <div class="card-back">
+              <h3>Projeto em HTML, CSS e JavaScript desenvolvidos na #QuarentenaDev da Alura.</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="./img/programando.jpg" alt="ImersãoCSS">
+            </figure>
+            <div class="card-back">
+              <h3>Criação desse site desenvolvido na #ImersaoCSS da Alura.</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="./img/science.jpg" alt="QuarentenaDados">
+            </figure>
+            <div class="card-back">
+				      <h3>Projetos de análise de dados desenvolvidos na #QuarentenaDados da Alura.</h3>
+            </div>
+          </div>
+        </div>
+
+    </section>
+    <section class="contato container" id="contato">
+      <h2>Contato</h2>
+
+      <div class="grid icons">
+        <a target="_blank" href="https://github.com/jessicafiel">
+          <i class="fab fa-github"></i>
+        </a>
+
+        <a target="_blank" href="https://www.linkedin.com/in/j%C3%A9ssica-gama-fiel-09b55b140/">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+    </section>
+  </body>
 </html>
